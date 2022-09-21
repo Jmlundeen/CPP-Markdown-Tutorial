@@ -1,7 +1,7 @@
 # 1. Download msys2 latest installer
 
 https://github.com/msys2/msys2-installer/releases
-after that finishes it should open a terminal window
+<br>after that finishes it should open a terminal window
 
 # 2. Install dependencies
 
