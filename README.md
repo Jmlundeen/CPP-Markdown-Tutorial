@@ -14,14 +14,7 @@ pacman -S mingw-w64-x86_64-qt5-base
 
 Next, go to msys64\mingw64\bin and change `mingw32-make` to just `make`
 
-# 3. Setup vscode
-
-i. extensions
-makefile tools (for compiling with the make file)
-c/c++ (for intellisense)
-makefile tools should have a sidebar icon, if not, make sure vscode has the homework base folder open.
-
-# 4. Makefile changes
+# 3. Makefile changes
 
 change CC and CXX paths:
 
@@ -48,7 +41,7 @@ your makefile should then look something like the screenshot
 
 ![](Makefile_Example.png)
 
-# 5. Debug setup
+# 4. Debug setup
 
 For debugging, we're going to use vscode's tasks.json and launch.json to compile the makefile and then run the debugger. If you do not have these create a .vscode folder in your project directory and create the files inside .vscode folder.
 
@@ -121,7 +114,7 @@ This is my tasks.json file
 
 This will be used to call make and just build the program before each launch. you want to make sure that "label" and "preLaunchTask" (from the launch.json) have the same value. If not, you will get an error.
 
-# 6. Run
+# 5. Run
 
 Now, you should be able to go to the run and debug tab and press the green arrow(Default shortcut is F5) and then the make file will compile and launch your program in debugging mode.
 <br>
